@@ -1,0 +1,137 @@
+@import '../root.css';
+
+@media screen and (min-width:900px) {
+    .section-beneficios{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10vh;
+    }
+    .box-titulo-beneficios{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .titulo-section-beneficios{
+        font-family: 'Barlow', sans-serif;
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    .linha-divisa-titulo-alianca{
+        width: 60vw;
+        background-color: #ffcd2a;
+        height: 1vh;
+    }
+    .button-ver-beneficios{
+        font-family: 'Barlow', sans-serif;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        padding: 2vh 2vw;
+        background-color: #113892;
+        color: white;
+    }
+    .button-ver-beneficios:hover{
+        transition: all .5s;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .box-cards-beneficios{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding:  0vh 3vw;
+        width: 100%;
+    }
+    .card-beneficio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        width: 25%;
+        height: 40vh;
+    }
+    .titulo-beneficio{
+        font-family: 'Barlow', sans-serif;
+        font-size: 1.6rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .borda-beneficio{
+        height: 1vh;
+        background-color: #1D2D50;
+        width: 60%;
+    }
+    .imagem-beneficio{
+        width: 7vw;
+        height: 7vw;
+    }  
+}
+@media screen and (max-width:600px) {
+    .section-beneficios{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10vh;
+    }
+    .titulo-section-beneficios{
+        text-align: center;
+        font-family: 'Barlow', sans-serif;
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    .button-ver-beneficios{
+        font-family: 'Barlow', sans-serif;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        padding: 2vh 2vw;
+        background-color: #113892;
+        color: white;
+    }
+    .box-cards-beneficios{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0vh 3vw;
+        gap: 5%;
+        width: 100%;
+    }
+    .card-beneficio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        width: 45%;
+        padding: 0vh 2vw;
+        height: 40vh;
+        margin: 5vh 0vw;
+    }
+    .titulo-beneficio{
+        font-family: 'Barlow', sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .borda-beneficio{
+        width: 80%;
+        height: 1vh;
+        background-color: #ffcd2a;
+    }
+    .imagem-beneficio{
+        width: 20vw;
+        height: 20vw;
+    }  
+}

@@ -1,0 +1,133 @@
+@import '../root.css';
+
+@media screen and (min-width:900px) {
+    .section-planos, .box-planos{
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: flex-start;
+        font-family: 'Barlow', sans-serif;
+        background-color: #1D2D50;
+    }
+    .box-planos{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .titulo-section-planos{
+        color: white;
+        font-size: 4rem;
+        margin: 3vh 0vw 0vh;
+    }
+    .titulo-plano{
+        font-size: 3rem;
+        margin-bottom: 2vh;
+        width: 100%;
+        text-align: center;
+    }
+    .card-plano{
+        text-align: center;
+        width: 30%;
+        padding: 1vh 1vh 1vh;
+        border-radius: 10px;
+        background-color:white;
+        color: black;
+    }
+    .card-plano:hover{
+        transform: scale(1.1);
+        transition: all .5s;
+        cursor: pointer;
+    }
+    .beneficio{
+        margin-top: 0.5vh;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0vh 1vw;
+        font-size: 1.4rem;
+    }
+    .texto-a-partir-de, .button-contratar-plano{
+        margin-top: 3vh;
+        font-size: 1.5rem;
+    }
+    .preco-plano{
+        font-size: 2.5rem;
+    }
+    .button-contratar-plano{
+        width: 100%;
+        font-family: 'Barlow', sans-serif;
+        color: white;
+        border-radius: 10px;
+        font-size: 2rem;
+        background-color: #32ba7c;
+        height: fit-content;
+        padding: 2vh 0vw;
+        cursor: pointer;
+    }
+    .card-meio{
+        margin-top: 10vh;
+    }  
+}
+@media screen and (max-width:600px) {
+    .section-planos, .box-planos{
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: flex-start;
+        font-family: 'Barlow', sans-serif;
+        background-color: #113892;
+    }
+    .box-planos{
+        justify-content: space-evenly;
+        gap: 10vh;
+    }
+    .titulo-section-planos{
+        color: white;
+        font-size: 4rem;
+        margin: 3vh 0vw 10vh;
+    }
+    .titulo-plano{
+        font-size: 3rem;
+        margin-bottom: 3vh;
+        width: 100%;
+        text-align: center;
+    }
+    .card-plano{
+        text-align: center;
+        width: 90%;
+        padding: 2vh 1vh 1vh;
+        border-radius: 10px;
+        background-color:white;
+        color: black;
+    }
+    .beneficio{
+        margin-top: 0.5vh;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0vh 1vw;
+        font-size: 1.5rem;
+    }
+    .texto-a-partir-de, .button-contratar-plano{
+        margin-top: 3vh;
+        font-size: 1.5rem;
+    }
+    .preco-plano{
+        font-size: 3rem;
+    }
+    .button-contratar-plano{
+        width: 100%;
+        font-family: 'Barlow', sans-serif;
+        color: white;
+        border-radius: 10px;
+        font-size: 2rem;
+        background-color: #32ba7c;
+        height: fit-content;
+        padding: 2vh 0vw;
+    }
+}

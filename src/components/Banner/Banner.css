@@ -1,0 +1,180 @@
+@import '../root.css';
+
+@media screen and (max-width:600px) {
+    .box-banner{
+        width: 100%;
+        height: fit-content;
+        padding: 3vh 0vw 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10vh;
+        background-color: #1D1C1C;
+        background-image: url('../../assets/fundoBanner.png');
+        background-size: cover;
+    }
+    .box-texto-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    .titulo-banner{
+        font-family: 'Bebas Neue', cursive;
+        color: #FFCD2A;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .subtitulo-banner{
+        font-family: 'Barlow', sans-serif;
+        color: #ffffff;
+        font-size: 1.5rem;
+    }
+    .box-contatos-banner, .box-contato-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: 'Barlow', sans-serif;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .box-contato-banner{
+        gap: 2vw;
+        flex-direction: row;
+    }
+    .box-contatos-banner{
+        padding: 3vh 0vw 0vh;
+        gap: 2vh;
+    }
+    .icone-contato-banner{
+        width: 5vh;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+        padding: 1vh;
+    }
+    .box-beneficios-banner{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1vh;
+    }
+    .box-beneficio-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        height: 25vh;
+        color: white;
+        background-color: #113892;
+        font-family: 'Barlow', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        background: rgba( 0, 0, 0, 0.4 );
+        backdrop-filter: blur( 12.5px );
+        border-radius: 10px;
+    }
+    .destaque-beneficio{
+        font-size: 2.5rem;
+    }
+    .beneficio-bottom{
+        width: 80%;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .box-banner{
+        width: 100%;
+        height: 85vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0vh;
+        background-color: #1D1C1C
+    }
+    .box-texto-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50vw;
+    }
+    .titulo-banner{
+        font-family: 'Bebas Neue', cursive;
+        color: #FFCD2A;
+        font-size: 5rem;
+    }
+    .subtitulo-banner{
+        font-family: 'Barlow', sans-serif;
+        color: #ffffff;
+        font-size: 2rem;
+    }
+    .link-instagram{
+        color: white;
+    }
+    .box-contatos-banner, .box-contato-banner{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: 'Barlow', sans-serif;
+        font-size: 1.5rem;
+    }
+    .box-contatos-banner{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .box-contato-banner{
+        gap: 1vw;
+    }
+    .box-contatos-banner{
+        padding: 3vh 0vw 0vh;
+        gap: 2vw;
+    }
+    .icone-contato-banner{
+        width: 5vh;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+        padding: 1vh;
+    }
+    .box-beneficios-banner{
+        width: 25vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1vh;
+    }
+    .box-beneficio-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 45%;
+        height: 25vh;
+        color: white;
+        background-color: #ffffff;
+        font-family: 'Barlow', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        backdrop-filter: blur( 12.5px );
+        border-radius: 10px;
+        color: #1D1C1C
+    }
+    .destaque-beneficio{
+        font-size: 2.5rem;
+    }
+    .beneficio-bottom{
+        width: 90%;
+        font-size: 1rem;
+    }
+}

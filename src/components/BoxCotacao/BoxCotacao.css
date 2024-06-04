@@ -1,0 +1,93 @@
+@import '../root.css';
+
+@media screen and (min-width:900px) {
+    .section-faca-cotacao, .box-input-veiculo, .box-input-cotacao, .box-input-nome-numero{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-input-nome-numero{
+        flex-direction: row;
+        justify-content: center;
+        gap: 1vw;
+    }
+    .box-input-cotacao, .box-input-veiculo{
+        gap: 1vw;
+    }
+    .box-input-cotacao{
+        margin-top: 10vh;
+    }
+    .titulo-cotacao{
+        font-family: 'Barlow', sans-serif;
+        font-size: 3.5rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    .input-cotacao{
+        background-color: aliceblue;
+        border-radius: 5px;
+        padding: 1vh 1vh;
+        font-family: 'Barlow', sans-serif;
+        font-size: 1.5rem;
+        height: 10vh;
+        width: 30vw;
+    }
+    .button-cotacao{
+        background-color: #32ba7c;
+        color: white;
+        padding: 2vh 2vw;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        font-family: 'Barlow', sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+        margin-top: 5vh;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:600px) {
+    .section-faca-cotacao, .box-input-veiculo, .box-input-cotacao, .box-input-nome-numero{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-input-nome-numero{
+        flex-direction: row;
+        justify-content: center;
+        gap: 1vw;
+    }
+    .box-input-cotacao, .box-input-veiculo{
+        gap: 1vw;
+    }
+    .box-input-cotacao{
+        margin-top: 10vh;
+    }
+    .titulo-cotacao{
+        font-family: 'Barlow', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    .input-cotacao{
+        background-color: aliceblue;
+        border-radius: 5px;
+        padding: 1vh 1vh;
+        font-family: 'Barlow', sans-serif;
+        font-size: 1.5rem;
+        height: 10vh;
+        width: 40vw;
+    }
+    .button-cotacao{
+        background-color: #32ba7c;
+        color: white;
+        padding: 2vh 2vw;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        font-family: 'Barlow', sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+        margin-top: 5vh;
+    }
+}

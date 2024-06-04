@@ -1,0 +1,149 @@
+@import '../../components/root.css';
+
+@media screen and (min-width:900px) {
+    .section-page-nossos-beneficios{
+        width: 100%;
+        display: flex;
+        height: fit-content;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        background-color: #1D1C1C;
+        color: white;
+        padding-bottom: 30vh;
+    }
+    .box-titulo-page-beneficios{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 2vh;
+        padding: 3vh 0vw 0vh 5vw;
+    }
+    .titulo-page-beneficios{
+        font-family: 'Barlow', sans-serif;
+        font-size: 2.8rem;
+        font-weight: 400;
+    }
+    .linha-divisa-page-beneficios{
+        width: 30vw;
+        height: 1vh;
+        background-color: #ffcd2a;
+    }
+    .box-page-beneficios{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 3%;
+    }
+    .card-beneficio-page-beneficio{
+        color: black;
+        background-color: white;
+        width: 45%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+        border-radius: 10px;
+        flex-wrap: nowrap;
+        margin-top: 2vh;
+        padding: 2vh 1vw;
+    }
+    .icone-card-beneficio-page-beneficio{
+        width: 7vw;
+        height: 7vw;
+    }
+    .box-titulo-descricao-card-page-beneficio{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 1.5vh;
+        font-family: 'Barlow', sans-serif;
+    }
+    .linha-divisa-card-page-beneficio{
+        width: 50%;
+        height: .5vh;
+        background-color: #ffcd2a;
+    }
+}
+@media screen and (max-width:600px) {
+    .section-page-nossos-beneficios{
+        width: 100%;
+        display: flex;
+        height: fit-content;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        background-color: #1D1C1C;
+        color: white;
+        padding-bottom: 30vh;
+    }
+    .box-titulo-page-beneficios{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 2vh;
+        padding: 3vh 0vw 0vh 5vw;
+    }
+    .titulo-page-beneficios{
+        font-family: 'Barlow', sans-serif;
+        font-size: 2.8rem;
+        font-weight: 400;
+    }
+    .linha-divisa-page-beneficios{
+        width: 30vw;
+        height: 1vh;
+        background-color: #ffcd2a;
+    }
+    .box-page-beneficios{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3%;
+    }
+    .card-beneficio-page-beneficio{
+        color: black;
+        background-color: white;
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+        border-radius: 10px;
+        flex-wrap: nowrap;
+        margin-top: 2vh;
+        padding: 2vh 1vw;
+    }
+    .icone-card-beneficio-page-beneficio{
+        width: 7vw;
+        height: 7vw;
+    }
+    .box-titulo-descricao-card-page-beneficio{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 1.5vh;
+        font-family: 'Barlow', sans-serif;
+    }
+    .linha-divisa-card-page-beneficio{
+        width: 50%;
+        height: .5vh;
+        background-color: #ffcd2a;
+    }
+    .descricao-beneficio-page-beneficio{
+    }
+}
