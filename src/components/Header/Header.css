@@ -8,7 +8,7 @@
   padding: 0vh 3vw;
   align-items: center;
   justify-content: space-between;
-  background-color: #1D1C1C;
+  z-index: 20;
 }
 
 .box-navegacao-header {
@@ -17,16 +17,19 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  z-index: 20;
 }
 
-.icone-logo-header {
+.icone-logo-header{
   width: 6vw;
+  z-index: 20;
 }
 
 .link-header {
   font-family: 'Barlow', sans-serif;
   color: white;
-  font-size: 1.1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
   position: relative;
 }
 

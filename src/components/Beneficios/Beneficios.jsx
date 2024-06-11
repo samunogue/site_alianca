@@ -62,7 +62,6 @@ export const Beneficios = () =>{
         <section className="section-beneficios">
             <div className='box-titulo-beneficios'>
                 <h3 className="titulo-section-beneficios">Nossos Beneficíos</h3>
-                <div className='linha-divisa-titulo-alianca'></div>
             </div>
             <div className="box-cards-beneficios">
                 {beneficios.slice(0,8).map(beneficio =>

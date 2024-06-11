@@ -23,20 +23,6 @@ export const Banner = () =>{
                     </div>
                 </div>
             </div>
-            <div className='box-beneficios-banner'>
-                <div className='box-beneficio-banner'>
-                    <p className='destaque-beneficio'>100%</p>
-                    <p>Tabela Fipe</p>
-                </div>
-                <div className='box-beneficio-banner'>
-                    <p className='destaque-beneficio'>24</p>
-                    <p>horas assistência</p>
-                </div>
-                <div className='box-beneficio-banner beneficio-bottom'>
-                    <p className='destaque-beneficio'>Rastreamento</p>
-                    <p>em qualquer lugar</p>
-                </div>
-            </div>
         </section>
     )
 }

@@ -7,17 +7,19 @@ import { Planos } from "../../components/Planos/Planos"
 import './Home.css'
 import { Footer } from "../../components/Footer/Footer"
 import { QuemSomos } from "../../components/QuemSomos/QuemSomos"
+import { BannerAPP } from "../../components/SectionAPP"
 export const Home = () =>{
     window.scrollTo(0, 0);
     return(
         <>
         <Header />
-        <main>
+        <main className="main">
             <Banner />
             <QuemSomos />
             <Beneficios />
             <Planos />
             <BoxCotacao />
+            <BannerAPP />
             <SejaConsultor />   
                 
         </main>

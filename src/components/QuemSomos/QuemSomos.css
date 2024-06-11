@@ -22,10 +22,12 @@
         height: 100%;
     }
     .titulo-sobre-nos{
-        font-size: 3.5rem
+        font-size: 3.5rem;
+        color: white;
     }
     .descricao-sobre-nos{
         font-size: 1.3rem;
+        color: white;
     }
     .linha-sobre-nos{
         width: 40%;
@@ -36,7 +38,7 @@
         width: 45%;
         height: 60vh;
         border-radius: 5px;
-        box-shadow: #1D2D50 20px 20px;
+        box-shadow: #ffcd2a 20px 20px;
     }
 }
 @media screen and (max-width:600px) {
@@ -57,10 +59,12 @@
         width: 90%;
     }
     .titulo-sobre-nos{
-        font-size: 3.5rem
+        font-size: 3.5rem;
+        color: white;
     }
     .descricao-sobre-nos{
         font-size: 1.3rem;
+        color: white;
     }
     .linha-sobre-nos{
         width: 20%;
